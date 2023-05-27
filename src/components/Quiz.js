@@ -50,7 +50,7 @@ export default function Quiz() {
       EvaluarEnviar()
     ):(<>
     <div className='cabecera-volver'>
-      <button className='volverbtn' onClick={()=>setGameState("MainMenu")}><img alt='home' src={require('../imgs/icons/home-ip.png')}></img></button>
+      <button className='volverbtn' onClick={()=>{setGameState("MainMenu");setCurrentScore(0)}}><img alt='home' src={require('../imgs/icons/home-ip.png')}></img></button>
       <span> / Pregunta {numeroPregunta + 1}</span>
     </div>
     <div className='cuestionario'>

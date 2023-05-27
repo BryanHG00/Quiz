@@ -10,7 +10,7 @@ export default function MainMenu() {
             <div className='contenedorMenu'>
                 <button onClick={() => {setGameState("Quiz")}}>Empezar quiz</button>
 
-                <h3>Máximo puntaje: {maxScore}</h3>
+                <h3>Mejor puntuación: {maxScore}</h3>
 
                 
             </div>

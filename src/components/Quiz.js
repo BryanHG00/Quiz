@@ -64,7 +64,7 @@ export default function Quiz() {
       </div>
     </div>
 
-      <button className='siguiente' onClick={nextQuestion}>Siguiente pregunta</button>
+      <button className='siguiente' onClick={nextQuestion}>Siguiente pregunta  &gt; &gt;</button>
       </>
     )}
     </>

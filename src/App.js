@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="App">
       <div>
-      <h1 className='titulo__gral rell'>Quiz Animales</h1>
+      <h1 className='titulo__gral rell'><img alt='Huella' src={require('../src/imgs/sapo.png')}></img>Quiz Animales</h1>
       </div>
       <QuizContext.Provider value={{ setGameState, currentScore,setCurrentScore ,maxScore, setMaxScore}}>
         {gameState === "MainMenu" && <MainMenu />}
